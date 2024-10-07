@@ -1,6 +1,6 @@
 # Paradox Map
 
-Paradox map is a web app for mapping your divine paradox vault in Vault Hunters 3.
+Wold's Paradox map is a web app for mapping your divine paradox vault in Wold's Vaults
 
 ## Project Setup
 
