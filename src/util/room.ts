@@ -15,6 +15,9 @@ export const GOD_LABELS = {
 } as const
 
 export const ROOM_TYPES = {
+  ARCADE: 'arcade', 
+  ISKALLIAN_GARDEN: 'iskallian_garden',
+  PLAYZONE: 'playzone', 
   BLACKSMITH: 'blacksmith',
   COVE: 'cove',
   LIBRARY: 'library',
@@ -23,6 +26,7 @@ export const ROOM_TYPES = {
   PAINTING: 'painting',
   VENDOR: 'vendor',
   DIGSITE: 'digsite',
+  PIRATE_CAVE: 'pirate_cave',
   CRYSTAL_CAVES: 'crystal_caves',
   DRAGON: 'dragon',
   X_MARK: 'x_mark',
@@ -32,9 +36,13 @@ export const ROOM_TYPES = {
   ORE: 'ore',
   COMMON: 'common',
   PORTAL: 'portal'
+  
 } as const
 
 export const ROOM_LABELS = {
+  [ROOM_TYPES.ARCADE]: 'Arcade', 
+  [ROOM_TYPES.ISKALLIAN_GARDEN]: 'Iskallian Garden',
+  [ROOM_TYPES.PLAYZONE]: 'playzone', 
   [ROOM_TYPES.BLACKSMITH]: 'Blacksmith',
   [ROOM_TYPES.COVE]: 'Cove',
   [ROOM_TYPES.LIBRARY]: 'Library',
@@ -43,6 +51,7 @@ export const ROOM_LABELS = {
   [ROOM_TYPES.PAINTING]: 'Painting',
   [ROOM_TYPES.VENDOR]: 'Vendor',
   [ROOM_TYPES.DIGSITE]: 'Digsite',
+  [ROOM_TYPES.PIRATE_CAVE]: 'pirate_cave',
   [ROOM_TYPES.CRYSTAL_CAVES]: 'Crystal Caves',
   [ROOM_TYPES.DRAGON]: 'Dragon',
   [ROOM_TYPES.X_MARK]: 'X Mark',
@@ -51,7 +60,8 @@ export const ROOM_LABELS = {
   [ROOM_TYPES.VILLAGE]: 'Village',
   [ROOM_TYPES.ORE]: 'Ore',
   [ROOM_TYPES.COMMON]: 'Common',
-  [ROOM_TYPES.PORTAL]: 'Portal'
+  [ROOM_TYPES.PORTAL]: 'Portal',
+  [ROOM_TYPES.ISKALLIAN_GARDEN]: 'Iskallian_Garden'
 } as const
 
 export const OMEGA_ROOMS = [
